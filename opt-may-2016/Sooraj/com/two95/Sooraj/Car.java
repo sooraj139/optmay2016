@@ -3,7 +3,7 @@ package com.two95.Sooraj;
 public class Car extends Vehicle {
 	private String company;
 	private String model;
-	private int registration_no;
+	private int registrationNo;
 	public String getCompany() {
 		return company;
 	}
@@ -16,11 +16,11 @@ public class Car extends Vehicle {
 	public void setModel(String model) {
 		this.model = model;
 	}
-	public int getRegistration_no() {
-		return registration_no;
+	public int getRegistrationNo() {
+		return registrationNo;
 	}
-	public void setRegistration_no(int registration_no) {
-		this.registration_no = registration_no;
+	public void setRegistration_no(int registrationNo) {
+		this.registration_no = registrationNo;
 	}
 	
 	
