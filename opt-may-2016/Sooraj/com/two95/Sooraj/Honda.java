@@ -3,7 +3,7 @@ package com.two95.Sooraj;
 public class Honda extends Car{
 	private int mileage;
 	private String cost;
-	private String engine_no;
+	private String engineNo;
 	private Showroom showroom;
 	
 	public Showroom getShowroom() {
@@ -33,22 +33,22 @@ public class Honda extends Car{
 		this.cost = cost;
 	}
 	
-	public Honda(int mileage, String cost, String engine_no, Showroom showroom) {
+	public Honda(int mileage, String cost, String engineNo, Showroom showroom) {
 		super();
 		this.mileage = mileage;
 		this.cost = cost;
-		this.engine_no = engine_no;
+		this.engineNo = engineNo;
 		this.showroom = showroom;
 	}
-	public String getEngine_no() {
-		return engine_no;
+	public String getEngineNo() {
+		return engineNo;
 	}
-	public void setEngine_no(String engine_no) {
-		this.engine_no = engine_no;
+	public void setEngineNo(String engineNo) {
+		this.engineNo = engineNo;
 	}
 	@Override
 	public String toString() {
-		return "Honda [mileage=" + mileage + ", cost=" + cost + ", engine_no=" + engine_no + "]";
+		return "Honda [mileage=" + mileage + ", cost=" + cost + ", engineNo=" + engineNo + "]";
 	}
 	
 
