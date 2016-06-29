@@ -1,11 +1,11 @@
 package com.training.polymorphism;
 
-public class carTest {
+public class CarTest {
 
 	public static void main(String[] args) {
 		System.out.println("Dealer of Toyota");
-		ToyotaDealer ment =new ToyotaDealer();
-		ment.imple(new Toyota());
+		ToyotaDealer obj =new ToyotaDealer();
+		obj.implement(new Toyota());
 		System.out.println("------------------------");
 		System.out.println("Starting the car wash");
 		System.out.println("Toyota enters"); 
