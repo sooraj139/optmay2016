@@ -1,9 +1,9 @@
 package com.training.polymorphism;
 
-public abstract class vehicle {
-	public abstract void name();
-	public abstract void make();
-	public abstract void cost();
+public abstract class Vehicle {
+	public abstract void goFast();
+	public abstract void stop();
+	public abstract void reverse();
 }
 
 	
