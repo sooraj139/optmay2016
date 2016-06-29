@@ -3,20 +3,20 @@ package com.training.polymorphism;
 public class Truck extends vehicle {
 
 	@Override
-	public void name() {
-		System.out.println("Truck: The name of the truck is alt");
+	public void goFast() {
+		System.out.println("Truck: going at 30 miles/hour");
 		
 	}
 
 	@Override
-	public void make() {
-		System.out.println("Truck: The make of the truck is 2010");
+	public void stop() {
+		System.out.println("Truck: Will make a stop every 8 hours");
 		
 	}
 
 	@Override
-	public void cost() {
-		System.out.println("Truck: The cost is $45000 ");
+	public void reverse() {
+		System.out.println("Truck: go reverse for 200 meters  ");
 		
 	}
 
