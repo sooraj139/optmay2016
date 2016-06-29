@@ -3,20 +3,20 @@ package com.training.polymorphism;
 public class Toyota extends Car {
 	
 	@Override
-	public void name() {
-		System.out.println("Toyota: The name of the car is toyota");
+	public void goFast() {
+		System.out.println("Toyota: going at 42 miles /hour");
 		
 	}
 
 	@Override
-	public void make() {
-		System.out.println("Toyota: The make of the car is 2000");
+	public void stop() {
+		System.out.println("Toyota: we will stop in 5 minutes");
 		
 	}
 
 	@Override
-	public void cost() {
-		System.out.println("Toyota:The cost of the car is $28000");
+	public void reverse() {
+		System.out.println("Toyota:The car is in reverse gear");
 		
 	}
 }
