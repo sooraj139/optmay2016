@@ -1,16 +1,16 @@
 package com.training.polymorphism;
 
 public class Suzuki extends Car {
-	public void name() {
-		System.out.println("Suzuki: The name of the car is Suzuki");
+	public void goFast() {
+		System.out.println("Suzuki: going at 45 miles/hour");
 	}
 
-	public void make() {
-		System.out.println("Suzuki: The make is 2008");
+	public void stop() {
+		System.out.println("Suzuki: We are going to stop now");
 
 	}
-	public void cost(){
-		System.out.println("Suzuki: The cost can start at $27000");
+	public void reverse(){
+		System.out.println("Suzuki: the car is going to go in reverse");
 	}
 
 }
