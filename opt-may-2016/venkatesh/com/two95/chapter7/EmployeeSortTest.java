@@ -8,7 +8,7 @@ public class EmployeeSortTest {
 
 	public static void main(String[] args) {
 
-		Set set = new TreeSet(new IdComparator());
+		Set set = new TreeSet();
 		set.add(new Employee(8, "venkatesh", "sudha"));
 		set.add(new Employee(3, "prasad", "kumar"));
 		set.add(new Employee(5, "vishwa", "kamity"));
