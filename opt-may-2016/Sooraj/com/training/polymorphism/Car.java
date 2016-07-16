@@ -6,7 +6,7 @@ public class Car extends Vehicle {
 	@Override
 	public void goFast() {
 		System.out.println("This class includes all th classes");
-		System.out.println("Car: The car is going fast");
+		System.out.println("Car: The car is going faster");
 		
 	}
 //
