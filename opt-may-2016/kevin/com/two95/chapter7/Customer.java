@@ -9,6 +9,9 @@ public class Customer {
 		this.lastName=lastName;
 		this.ssn=ssn;
 	}
+	public Customer(String firstName2, String lastName2, String string) {
+		// TODO Auto-generated constructor stub
+	}
 	public String getFirstName(){
 		return this.firstName;
 	}

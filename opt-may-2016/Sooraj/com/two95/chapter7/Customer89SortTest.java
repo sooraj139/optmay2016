@@ -1,7 +1,7 @@
 package com.two95.chapter7;
 
 import java.util.*;
-public class CustomerSortTest {
+public class Customer89SortTest {
 public static void main(String args[]) {
 TreeSet set = new TreeSet(new LastNameComparator());
 set.add(new Customer("John", "Smith", "12345"));
