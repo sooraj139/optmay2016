@@ -3,7 +3,7 @@ import java.util.*;
 public class StudentSort {
 
 	public static void main(String[] args) {
-		ArrayList<Student> arraylist = new ArrayList<Student>();
+		List<Student> arraylist = new ArrayList<Student>();
 		   arraylist.add(new Student(1, "Sooraj", 26));
 		   arraylist.add(new Student(2, "Sankirth", 24));
 		   arraylist.add(new Student(3, "Krishna", 32));
