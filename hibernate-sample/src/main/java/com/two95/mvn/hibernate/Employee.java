@@ -26,6 +26,12 @@ public class Employee {
 
 	}
 
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", firstname=" + firstname + ", lastname=" + lastname + ", birthDate=" + birthDate
+				+ ", cellphone=" + cellphone + "]";
+	}
+
 	public Long getId() {
 		return id;
 	}
