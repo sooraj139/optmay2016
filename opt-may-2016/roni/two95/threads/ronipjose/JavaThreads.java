@@ -7,7 +7,7 @@ package two95.threads.ronipjose;
 
 
 
-public class javaThreads extends Thread{
+public final class JavaThreads extends Thread{
 
 	public static void main(String[] args) {
 
